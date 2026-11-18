@@ -1,5 +1,11 @@
 {
   "compilerOptions": {
-    "types": ["node"]
+    "types": ["node"],
+    "paths": {
+      "@/*": ["./*"],
+      "@factories/*": ["./factories/*"],
+      "@fixtures/*": ["./fixtures/*"],
+      "@pages/*": ["./pages/*"],
+    }
   }
 }
